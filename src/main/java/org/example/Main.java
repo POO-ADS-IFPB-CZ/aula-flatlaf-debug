@@ -1,12 +1,12 @@
 package org.example;
 
+import org.example.model.Pessoa;
+
 public class Main {
     static void main() {
 
-        int a = 10;
-        int b = 20;
-        int soma = soma(a,b);
-        System.out.println(soma);
+        Pessoa pessoa = new Pessoa("João");
+        System.out.println(pessoa.getNome());
 
     }
 
