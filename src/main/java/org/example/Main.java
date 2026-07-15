@@ -13,7 +13,7 @@ public class Main {
     static void main() {
 
         try{
-            UIManager.setLookAndFeel(new FlatMacLightLaf());
+            UIManager.setLookAndFeel(new FlatDarkLaf());
 
             TelaExemplo telaExemplo = new TelaExemplo();
             telaExemplo.pack();
